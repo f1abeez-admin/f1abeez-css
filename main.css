@@ -1,0 +1,695 @@
+/*Disable old site callout*/
+  [data-block-id="61c3daba-a0aa-4b4b-b3a3-53d3c34b1f27"],
+  [data-block-id="a23911dc-4d69-4826-a9bb-2d511e2009a4"],
+  [data-block-id="f391bf84-96ca-45cd-b94c-cc21da7bd8c2"]{
+      pointer-events:none !important;
+      opacity:0.5 !important;
+  }
+
+/*Bulk*/
+  .notion-page-content {
+    padding-left: calc(10px + env(safe-area-inset-left)) !important;
+    padding-right: calc(10px + env(safe-area-inset-right)) !important;
+  }
+
+  .notion-image-block > div > div > div > div img {
+      border-radius: 1rem !important;
+  }
+  .notion-image-block {
+      align-self: center !important;
+      pointer-events: none !important;
+  }
+  .notion-image-block img {
+      pointer-events: none !important;
+  }
+
+  .notion-page-block {
+      text-align: center !important;
+  }
+  .notion-record-icon {
+      height: auto !important;
+      width: auto !important;
+  }
+  .notion-page-block > a > div > div > div > div,.notion-collection_view_page-block > a > div > div > div > div,.notion-alias-block > a > div > div > div > div {
+      justify-content: center !important;
+  }
+
+  .notion-sub_sub_header-block,.notion-header-block,.notion-sub_header-block {
+      text-align: center !important;
+  }
+
+  /*Gallery*/
+    .notion-gallery-view > div > div > .notion-collection-item > a > div > div > div {
+          justify-content: center !important;
+        }
+    .notion-gallery-view > div > div > .notion-collection-item > a > div > div > div {
+        font-size: 16px !important;
+    }
+    .notion-gallery-view > div > div > .notion-collection-item > a > div > div > div > div {
+        font-size: 13px !important;
+    }
+
+  /*Callout nesting -> button*/
+    .notion-callout-block > div > div .notion-callout-block {
+        margin: 0 auto !important;
+    }
+    .notion-callout-block > div > div .notion-callout-block > div {
+        padding: 10px !important;
+    }
+    .notion-callout-block > div > div .notion-callout-block > div > div {
+        border-radius: 100px !important;
+        width: fit-content !important;
+        background: #eeb472 !important;
+        margin: 0 auto !important;
+        color: #fff !important;
+        padding: 0 !important;
+    }
+    .notion-callout-block > div > div .notion-callout-block > div > div > div {
+        display: none;
+        margin-left: 0px !important;
+    }
+    .notion-callout-block > div > div .notion-callout-block > div > div > div a {
+        padding: 12px 24px !important;
+        display: block !important;
+        font-weight: 600 !important;
+    }
+    .notion-callout-block > div > div .notion-callout-block > div > div > div a > span {
+        opacity: 1 !important;
+        font-size: 20px !important;
+        border: none !important;
+    }
+
+  /*Partnership*/
+    .notion-text-block > div > div > div > div > div {
+        text-align: center !important;
+    }
+    .notion-text-block > div > div > .notion-column_list-block > div > div > div > .notion-bulleted_list-block > div > div.pseudoSelection,.notion-text-block > div > div > .notion-column_list-block > div > div > div > .notion-to_do-block > div > div.pseudoSelection {
+        display: none !important;
+    }
+    .notion-text-block > div > div > .notion-column_list-block > div > div > div > .notion-bulleted_list-block {
+        background: rgba(70, 130, 180, 0.1);
+        border-radius: 1rem;
+    }
+    .notion-text-block > div > div > .notion-column_list-block > div > div > div > .notion-to_do-block {
+        background: rgba(0, 128, 0, 0.1);
+        border-radius: 1rem;
+    }
+    .notion-factory-block {
+        display: none !important;
+    }
+    /*remove left padding in nested text box*/
+      .notion-text-block > div > div {
+        padding-left: 0 !important;
+      }
+
+  /*Profile*/
+    /*F1*/
+      .notion-text-block > div > div > div.notion-toggle-block > div > div > div > div > div.notion-text-block > div > div > div.notion-collection_view-block > div > div > div > div > div > div.notion-collection-item > a {
+        background: rgba(255, 0, 0, 0.1) !important;
+        pointer-events: none !important;
+        border-radius: 1rem !important;
+        height: auto !important;
+      }
+      .notion-text-block > div > div > div.notion-toggle-block > div > div > div > div > div.notion-text-block > div > div > div.notion-collection_view-block > div > div > div > div > div > div.notion-collection-item > a > div > div {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+      .notion-toggle-block > div > div > div > div > div.notion-text-block > div > div > div.notion-text-block {
+        margin-top: -1.5rem !important
+      }
+      .notion-toggle-block > div > div > div > div > div.notion-text-block {
+        margin-top: -2rem !important
+      }
+      .notion-text-block > div > div > div.notion-toggle-block > div > div > div > div > div.notion-text-block > div > div > div.notion-collection_view-block > div > div > div.notion-gallery-view > div.notion-collection_view-block > div {
+        gap: 8px!important;
+        grid-template-columns: repeat(auto-fill, minmax(145px, 1fr)) !important;
+        border-top: none!important
+      }
+
+    /*F2*/
+      .notion-text-block > div > div > div.notion-toggle-block > div > div > div > div > div.notion-text-block > div > div > div.notion-text-block > div > div > div.notion-collection_view-block > div > div > div > div > div > div.notion-collection-item > a {
+        background: rgba(70, 130, 180, 0.1) !important;
+        pointer-events: none !important;
+        border-radius: 1rem !important;
+      }
+      .notion-text-block > div > div > div.notion-toggle-block > div > div > div > div > div.notion-text-block > div > div > div.notion-text-block > div > div > div.notion-collection_view-block > div > div > div.notion-gallery-view > div.notion-collection_view-block > div {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+        border-top: none!important
+      }
+
+    /*Notupheld appeals*/
+      .notion-text-block > div > div > div.notion-text-block > div > div > div.notion-text-block > div > div > div.notion-collection_view-block > div > div > div > div > div > div.notion-collection-item > a {
+        background: rgba(255, 0, 0, 0.1) !important;
+        pointer-events: auto !important;
+      }
+      .notion-text-block > div > div > div.notion-text-block > div > div > div.notion-text-block > div > div > div.notion-collection_view-block {
+        margin-top: -5.5rem !important
+      }
+      .notion-text-block > div > div > div.notion-text-block > div > div > div.notion-text-block > div > div > div.notion-collection_view-block > div > div > div.notion-gallery-view > div.notion-collection_view-block > div > div.notion-collection-item > a > div > div > div > div > div img {
+        display: none
+      }
+      .notion-text-block > div > div > div.notion-collection_view-block > div {
+        display: none
+      }
+
+  /*Table of content -> buttons*/
+    .notion-table_of_contents-block > div > div > a > div > div {
+      justify-content: center!important;
+    }
+    .notion-table_of_contents-block {
+      width: fit-content !important;
+    }
+    .notion-table_of_contents-block > div > div > a {
+      background: #eeb472;
+      border-radius: 2rem;
+      margin: 10px;
+      padding: 5px 20px
+    }
+    .notion-table_of_contents-block > div > div > a > div > div > div {
+      color: white;
+      background: none !important;
+    }
+
+  /*Sync block quote to buttons*/
+    .notion-transclusion_container-block > .notion-quote-block > div,
+    .notion-transclusion_reference-block > .notion-quote-block > div {
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+    .notion-transclusion_container-block > .notion-quote-block > div > div,
+    .notion-transclusion_reference-block > .notion-quote-block > div > div {
+        border-left: none !important;
+        padding: 0px !important;
+        /*line-height:3 !important;*/
+    }
+    .notion-text-block > div > div > div.notion-callout-block > div > div {
+        padding: 16px 0 16px 0 !important
+    }
+    .notion-transclusion_container-block > .notion-quote-block > div > div > a,
+    .notion-transclusion_reference-block > .notion-quote-block > div > div > a {
+        background: #eeb472 !important;
+        color: white !important;
+        padding: 8px 12px !important;
+        border-radius: 5rem !important;
+        margin: 2px !important;
+    }
+    .notion-transclusion_container-block > .notion-quote-block > div > div > a span,
+    .notion-transclusion_reference-block > .notion-quote-block > div > div > a span {
+        opacity: 1 !important;
+        border-color: white !important;
+    }
+
+/*DataBlocks*/
+  /*Hide Collapse block*/
+    [data-block-id="8f82f175-280b-458f-9f8c-f8ba633a28b7"] {
+      display: none !important;
+    }
+
+  /*Homepage Callouts*/
+    /*Merch Callout*/
+      [data-block-id="46697b8d-f53c-4c27-a28d-7d4b9d65453d"] > div > div {
+          background: rgba(255, 0, 0, 0.1) !important;
+          border-radius: 1rem !important;
+          text-align: center !important;
+          border: none !important;
+      }
+      /*Hide icon + 1st line*/
+      [data-block-id="46697b8d-f53c-4c27-a28d-7d4b9d65453d"] > div > div > div {
+            display: none;
+            margin-top: -2rem;
+        }
+      /*H1*/
+      [data-block-id="7dd37482-6b00-45be-8b54-61897d061250"] {
+            font-size: 24px;
+            text-align: center;
+        }
+    /*App Callout*/
+      [data-block-id="3555d5b1-f672-4dac-bd7f-1835b26089aa"] > div > div {
+          background: rgba(255, 0, 0, 0.1) !important;
+          border-radius: 1rem !important;
+          text-align: center !important;
+          border: none !important;
+      }
+      /*Hide icon + line*/
+      [data-block-id="3555d5b1-f672-4dac-bd7f-1835b26089aa"] > div > div > div {
+            display: none;
+            margin-top: -2rem;
+        }
+
+  /*Centralise bottom sync block*/
+    [data-block-id="dc7f2524-c452-4dba-b560-6ba620d236a5"] {
+        text-align: center;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0rem !important;
+        padding-bottom: 1rem !important;
+        padding-top: 1rem !important;
+        background: rgba(138, 43, 226, 0.1);
+        border-radius: 1rem;
+    }
+    [data-block-id="0248315a-876a-48df-a08c-95ac7dc32a79"] {
+        text-align: center;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0rem !important;
+        padding-bottom: 1rem !important;
+        padding-top: 1rem !important;
+        background: rgba(105, 105, 105, 0.1);
+        border-radius: 1rem;
+    }
+    [data-block-id="6e860be3-efa0-4dc1-89fa-6aeb3e1334e0"] {
+        text-align: center;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0rem !important;
+        padding-bottom: 0.5rem !important;
+        padding-top: 0.5rem !important;
+        background: rgba(255, 255, 0, 0.1);
+        border-radius: 1rem;
+    }
+
+  /*About Us*/
+    /*Grey*/
+      /*david, commentators*/
+        [data-block-id="2ca61236-59bb-4e97-8f6a-263a62ae18ba"],[data-block-id="f36d1743-2236-4237-8acb-823430d1a507"] {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          background: rgba(105, 105, 105, 0.1);
+          border-radius: 1rem;
+        }
+    /*red*/
+      /*admins, t1, app, pt liasons*/
+        [data-block-id="b6fcd92c-1c43-4f7b-bfc7-9af44a12f287"],[data-block-id="d5fc2493-192b-4542-8ff7-b9008ab21519"],[data-block-id="0fcda142-fab8-44eb-9e0a-bede3bfb676b"],[data-block-id="c52dcb27-590e-4530-ae15-373e8de1b53d"] {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          background: rgba(255, 0, 0, 0.1);
+          border-radius: 1rem;
+        }
+    /*orange*/
+    /*t2, trail manager*/
+        [data-block-id="3c4fde41-d1f6-415b-b068-e6ca750abc73"],[data-block-id="a89d5ca7-eb4f-4276-ad4c-ef874fb32040"] {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          background: rgba(255, 165, 0, 0.1);
+          border-radius: 1rem;
+          }
+    /*yellow*/
+      /*t3, mods*/
+        [data-block-id="5dbe8e9c-834d-4d0b-8222-23458888e003"],[data-block-id="e94d04c7-8ff8-4185-bd82-0be4d70dadc8"] {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          background: rgba(255, 255, 0, 0.1);
+          border-radius: 1rem;
+        }
+    /*green*/
+      /*t4, stewards*/
+        [data-block-id="ac17380b-d993-4e2c-a854-ea62be9fadbf"],[data-block-id="8d85b85b-5583-4a65-9aa9-57467839fed8"] {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          background: rgba(0, 128, 0, 0.1);
+          border-radius: 1rem;
+        }
+    /*blue*/
+      /*f2, sm manager*/
+        [data-block-id="c2716e35-5a52-48eb-a60e-e15a94661cd3"],[data-block-id="30637835-8ec9-41bd-a7b4-f83acd634540"] {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          background: rgba(70, 130, 180, 0.1);
+          border-radius: 1rem;
+        }
+    /*purple*/
+      /*dev man*/
+        [data-block-id="4b0258e2-46f3-40eb-9845-7f81061f2d74"] {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          background: rgba(128, 0, 128, 0.1);
+          border-radius: 1rem;
+        }
+    /*pink*/
+      /*merch man*/
+        [data-block-id="95003ca7-f33b-4157-9a01-4265e62cd16a"] {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+          background: rgba(255, 192, 203, 0.1);
+          border-radius: 1rem;
+        }
+
+  /*Tier Portal*/
+    [data-block-id="4da84bb8-08ec-4e02-9838-d3956b811b17"] > div > div.notion-collection_view-block > div {
+        display: none !important
+    }
+    [data-block-id="4da84bb8-08ec-4e02-9838-d3956b811b17"] > div {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+        gap: 8px !important;
+        grid-auto-rows: auto !important;
+        border-top: none !important;
+        margin-top: -0.5rem !important;
+    }
+    /*Red - T1*/
+      [data-block-id="a4469705-0d26-4172-b81b-d2bd302b6992"] > a {
+          background: rgba(255, 0, 0, 0.1) !important;
+          border-radius: 1rem !important;
+      }
+      [data-block-id="6a3c0dce-9b7a-4c5b-8c64-5eeeb0124f1f"] > div > div > a > div > div > div > div > div > img {
+          display: none !important;
+      }
+      [data-block-id="6a3c0dce-9b7a-4c5b-8c64-5eeeb0124f1f"] > div > a > div {
+          display: none !important
+      }
+      [data-block-id="6a3c0dce-9b7a-4c5b-8c64-5eeeb0124f1f"] > div > div > div.notion-gallery-view {
+          display: grid !important;
+          margin-top: -10px !important;
+      }
+      [data-block-id="6a3c0dce-9b7a-4c5b-8c64-5eeeb0124f1f"] > div > div.notion-collection_view-block > div {
+          display: none !important
+      }
+      [data-block-id="6a3c0dce-9b7a-4c5b-8c64-5eeeb0124f1f"] > div {
+          min-height: 0px !important
+      }
+      [data-block-id="6a3c0dce-9b7a-4c5b-8c64-5eeeb0124f1f"] > div {
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+          gap: 8px !important;
+          grid-auto-rows: auto !important;
+          border-top: none !important
+      }
+      [data-block-id="6a3c0dce-9b7a-4c5b-8c64-5eeeb0124f1f"] > div > div > a > div > div {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+      }
+      [data-block-id="6a3c0dce-9b7a-4c5b-8c64-5eeeb0124f1f"] > div > div > a {
+          height: fit-content !important;
+          border-radius: 1rem !important;
+          background: rgba(255, 0, 0, 0.1) !important;
+      }
+    /*Orange - T2*/
+      [data-block-id="980f98da-eda5-4163-a037-477f6f53be8f"] > a {
+          background: rgba(255, 165, 0, .1) !important;
+          border-radius: 1rem !important;
+      }
+      [data-block-id="cbaf2fc5-47e9-4be8-9e41-b1cacdd652be"] > div > div > a > div > div > div > div > div > img {
+          display: none !important;
+      }
+      [data-block-id="cbaf2fc5-47e9-4be8-9e41-b1cacdd652be"] > div > a > div {
+          display: none !important
+      }
+      [data-block-id="cbaf2fc5-47e9-4be8-9e41-b1cacdd652be"] > div > div > div.notion-gallery-view {
+          display: grid !important;
+          margin-top: -10px !important;
+      }
+      [data-block-id="cbaf2fc5-47e9-4be8-9e41-b1cacdd652be"] > div > div.notion-collection_view-block > div {
+          display: none !important
+      }
+      [data-block-id="cbaf2fc5-47e9-4be8-9e41-b1cacdd652be"] > div {
+          min-height: 0px !important
+      }
+      [data-block-id="cbaf2fc5-47e9-4be8-9e41-b1cacdd652be"] > div {
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+          gap: 8px !important;
+          grid-auto-rows: auto !important;
+          border-top: none !important
+      }
+      [data-block-id="cbaf2fc5-47e9-4be8-9e41-b1cacdd652be"] > div > div > a > div > div {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+      }
+      [data-block-id="cbaf2fc5-47e9-4be8-9e41-b1cacdd652be"] > div > div > a {
+          height: fit-content !important;
+          border-radius: 1rem !important;
+          background: rgba(255, 165, 0, .1) !important;
+      }
+    /*Yellow - T3*/
+      [data-block-id="2f82f521-a710-42e0-82e9-de669d17fa8e"] > a {
+          background: rgba(255, 255, 0, 0.1) !important;
+          border-radius: 1rem !important;
+      }
+      [data-block-id="0bbe9483-0673-4786-b216-f29eba87877e"] > div > div > a > div > div > div > div > div > img {
+          display: none !important;
+      }
+      [data-block-id="0bbe9483-0673-4786-b216-f29eba87877e"] > div > a > div {
+          display: none !important
+      }
+      [data-block-id="0bbe9483-0673-4786-b216-f29eba87877e"] > div > div > div.notion-gallery-view {
+          display: grid !important;
+          margin-top: -10px !important;
+      }
+      [data-block-id="0bbe9483-0673-4786-b216-f29eba87877e"] > div > div.notion-collection_view-block > div {
+          display: none !important
+      }
+      [data-block-id="0bbe9483-0673-4786-b216-f29eba87877e"] > div {
+          min-height: 0px !important
+      }
+      [data-block-id="0bbe9483-0673-4786-b216-f29eba87877e"] > div {
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+          gap: 8px !important;
+          grid-auto-rows: auto !important;
+          border-top: none !important
+      }
+      [data-block-id="0bbe9483-0673-4786-b216-f29eba87877e"] > div > div > a > div > div {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+      }
+      [data-block-id="0bbe9483-0673-4786-b216-f29eba87877e"] > div > div > a {
+          height: fit-content !important;
+          border-radius: 1rem !important;
+          background: rgba(255, 255, 0, 0.1) !important;
+      }
+    /*Green - TM*/
+      [data-block-id="85bbe953-8eb4-4403-9041-28c16095164a"] > a {
+          background: rgba(0, 128, 0, 0.1) !important;
+          border-radius: 1rem !important;
+      }
+      [data-block-id="70c3aba4-462d-4224-b1d6-fdfa55ab3066"] > div > div > a > div > div > div > div > div > img {
+          display: none !important;
+      }
+      [data-block-id="70c3aba4-462d-4224-b1d6-fdfa55ab3066"] > div > a > div {
+          display: none !important
+      }
+      [data-block-id="70c3aba4-462d-4224-b1d6-fdfa55ab3066"] > div > div > div.notion-gallery-view {
+          display: grid !important;
+          margin-top: -10px !important;
+      }
+      [data-block-id="70c3aba4-462d-4224-b1d6-fdfa55ab3066"] > div > div.notion-collection_view-block > div {
+          display: none !important
+      }
+      [data-block-id="70c3aba4-462d-4224-b1d6-fdfa55ab3066"] > div {
+          min-height: 0px !important
+      }
+      [data-block-id="70c3aba4-462d-4224-b1d6-fdfa55ab3066"] > div {
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+          gap: 8px !important;
+          grid-auto-rows: auto !important;
+          border-top: none !important
+      }
+      [data-block-id="70c3aba4-462d-4224-b1d6-fdfa55ab3066"] > div > div > a > div > div {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+      }
+      [data-block-id="70c3aba4-462d-4224-b1d6-fdfa55ab3066"] > div > div > a {
+          height: fit-content !important;
+          border-radius: 1rem !important;
+          background: rgba(0, 128, 0, 0.1) !important;
+      }
+
+    /*Line-up*/
+      /*Red - T1*/
+        [data-block-id="e405cb90-b503-47b1-ba43-8921018d3853"] > div > div {
+          background: rgba(255, 0, 0, 0.1) !important;
+      }
+      /*Orange - T2*/
+        [data-block-id="b518a14e-9c21-4e6e-82cf-34e600aafeba"] > div > div {
+          background: rgba(255, 165, 0, .1) !important;
+      }
+      /*Yellow - T3*/
+        [data-block-id="1c48e14f-1274-4e91-a995-6dec70afcc0a"] > div > div {
+          background: rgba(255, 255, 0, 0.1) !important;
+      }
+      /*Green - TM*/
+        [data-block-id="67845f10-3baf-4fa0-be61-dc88a5e2139a"] > div > div {
+          background: rgba(0, 128, 0, 0.1) !important;
+      }
+
+      .notion-text-block > div > div > div.notion-callout-block > div > div {
+          /*background: rgba(255, 0, 0, 0.1) !important;*/
+          border-radius: 1rem !important;
+          text-align: center !important;
+          border: none !important;
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div {
+          display: none;
+          margin-top: -2rem;
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div {
+          display: none;
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal > div.notion-gallery-view > div.notion-collection_view-block > div > div.notion-collection-item > a > div > div > div.notion-record-icon {
+          float: left !important;
+          padding-bottom: 0px
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal > div.notion-gallery-view > div.notion-collection_view-block > div > div.notion-collection-item > a > div > div > div.notion-record-icon > div > div img {
+          width: 32px !important;
+          height: 32px !important;
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal > div.notion-gallery-view > div.notion-collection_view-block > div > div.notion-collection-item > a > div > div > div.notion-record-icon > div > div {
+          background: none;
+          border-radius: 0px !important;
+          padding: 0px !important;
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal > div.notion-gallery-view > div.notion-collection_view-block > div > div.notion-collection-item > a > div > div {
+          /*padding-bottom: !important*/
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal {
+          overflow: visible !important;
+      }
+
+      /*Alpha Romeo*/
+        [data-block-id="a94c80f0-2348-4afe-b56f-9b2b4814b797"] > a > div > div > div > div > div,
+        [data-block-id="935a2089-bdac-4d8b-8bc7-d667c6df8828"] > a > div > div > div > div > div,
+        [data-block-id="ece1ba78-d17e-4b47-bb07-4ab162a0a20f"] > a > div > div > div > div > div,
+        [data-block-id="4a79b2c5-b3b0-4b57-9a01-f84dad27ed48"] > a > div > div > div > div > div {
+            color: white;
+            background: rgb(144, 0, 0, 0.75);
+        }
+      /*AlphaTauri*/
+        [data-block-id="86c11c48-3374-4087-a1bc-66150b364522"] > a > div > div > div > div > div,
+        [data-block-id="d49c8f86-495a-4da1-99ae-f9b2909a7bda"] > a > div > div > div > div > div,
+        [data-block-id="939683d7-b7d4-43db-945a-729889a1da37"] > a > div > div > div > div > div,
+        [data-block-id="20d8ab5f-1fcf-4c04-9136-15f15ee6d4d4"] > a > div > div > div > div > div {
+            color: white;
+            background: rgb(43, 69, 98, 0.75);
+        }
+      /*Alpine*/
+        [data-block-id="3b7ac830-3d1b-4fcb-a36b-5baad44b9c20"] > a > div > div > div > div > div,
+        [data-block-id="d55697cc-8775-4dc1-b83c-8c1ea4c5ecad"] > a > div > div > div > div > div,
+        [data-block-id="eb10159b-87e4-4efa-9a16-99ae0aeaa1a6"] > a > div > div > div > div > div,
+        [data-block-id="00b87272-2094-4aa3-bf54-5ea946c0b1e9"] > a > div > div > div > div > div {
+            color: white;
+            background: rgb(0, 144, 255, 0.75);
+        }
+      /*Aston Martin*/
+        [data-block-id="d3f94a2a-6255-4bdb-bac2-d80fc9806934"] > a > div > div > div > div > div,
+        [data-block-id="93c40129-c3db-48db-a194-b35c005c40b6"] > a > div > div > div > div > div,
+        [data-block-id="fddbb1ac-29a9-4582-a33d-99bec6c85037"] > a > div > div > div > div > div,
+        [data-block-id="900afeea-b510-49d8-beee-76798e3404d0"] > a > div > div > div > div > div {
+            color: white;
+            background: rgb(0, 111, 98, 0.75);
+        }
+      /*Ferrari*/
+        [data-block-id="b69621cc-3bab-47d3-a691-2d73de8f6b40"] > a > div > div > div > div > div,
+        [data-block-id="24539816-ecc9-465a-b16e-f73e9426b1d8"] > a > div > div > div > div > div,
+        [data-block-id="434e30d1-e8f2-455a-8ba3-1e2f18a0dccc"] > a > div > div > div > div > div,
+        [data-block-id="4cc06428-f5b4-4b67-af0c-65c0ae8285b9"] > a > div > div > div > div > div {
+            color: white;
+            background: rgb( 220, 0, 0, 0.75);
+        }
+      /*Haas*/
+        [data-block-id="ee884009-6554-40c3-bac0-246f4bd58220"] > a > div > div > div > div > div,
+        [data-block-id="4204ef23-364b-42f5-b053-66f53fc08f63"] > a > div > div > div > div > div,
+        [data-block-id="4531256c-989e-4c67-aa13-93820c730845"] > a > div > div > div > div > div,
+        [data-block-id="201e4040-2f21-4f27-93f9-0f0753ed0963"] > a > div > div > div > div > div {
+            color: #ed1a3b;
+            background: rgb(255, 255, 255, 0.75);
+        }
+      /*McLaren*/
+        [data-block-id="f203daf3-e5d3-4f48-83b2-533179874bfb"] > a > div > div > div > div > div,
+        [data-block-id="46d0ad47-f74b-44a1-a7e0-ec494200dd8c"] > a > div > div > div > div > div,
+        [data-block-id="cedf4a4a-463f-41a3-b0dd-f52756edc591"] > a > div > div > div > div > div,
+        [data-block-id="07a5b9c1-e239-423a-bd5b-cf9b032f7279"] > a > div > div > div > div > div {
+            color: white;
+            background: rgb(255, 135, 0, 0.75);
+        }
+      /*Mercedes*/
+        [data-block-id="9b7e5ac2-5e14-4ea5-890b-9a9542ff2b1b"] > a > div > div > div > div > div,
+        [data-block-id="2f4981bb-20bd-47e8-ab83-bd7e684bac93"] > a > div > div > div > div > div,
+        [data-block-id="6f829963-bbfd-4232-bac9-1c05ebbae5c4"] > a > div > div > div > div > div,
+        [data-block-id="c1f6cf1c-3ede-417e-a907-d5c96ed95eee"] > a > div > div > div > div > div {
+            color: white;
+            background: rgb(0, 210, 190, 0.75);
+        }
+      /*Red Bull Racing*/
+        [data-block-id="039bce01-98a6-4f4a-b5c5-c53869790607"] > a > div > div > div > div > div,
+        [data-block-id="e78cc75d-4471-4f02-883e-5082647da711"] > a > div > div > div > div > div,
+        [data-block-id="b312d02a-12fa-4bed-9525-c57028017792"] > a > div > div > div > div > div,
+        [data-block-id="3ee2da9e-feec-4d61-9578-db8b7716a9f8"] > a > div > div > div > div > div {
+            color: white;
+            background: rgb(6, 0, 239, 0.75);
+        }
+      /*Williams*/
+        [data-block-id="0550ab11-86fc-40c7-869b-9f56ea1996bc"] > a > div > div > div > div > div,
+        [data-block-id="bd50f7b8-577d-4a65-8f2c-4536c85c4ae1"] > a > div > div > div > div > div,
+        [data-block-id="a1f54229-3e78-492c-895f-6aa12be3f952"] > a > div > div > div > div > div,
+        [data-block-id="144e5d9c-ff67-47b7-9102-00bdb897b37f"] > a > div > div > div > div > div {
+            color: white;
+            background: rgb(0, 90, 255, 0.75);
+        }
+
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal > div.notion-gallery-view > div.notion-collection_view-block > div > div.notion-collection-item > a > div > div > div > div > div {
+          font-size: 14px !important;
+          /*color:white;
+          background:#eeb472;*/
+          border-radius: 5rem !important;
+          padding: 14px 14px;
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-header-block {
+          margin-top: 0.5rem !important;
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal > div.notion-gallery-view > div.notion-collection_view-block > div {
+          gap: 0px !important;
+          padding: 0pc !important
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal > div.notion-gallery-view > div.notion-collection_view-block > div > div.notion-collection-item > a {
+          box-shadow: none !important;
+          border-radius: 0px !important;
+          overflow: visible !important;
+          background: none !important;
+          pointer-events: none !important;
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal > div.notion-gallery-view > div.notion-collection_view-block > div > div.notion-collection-item > a > div > div > div > div > div > div.notion-record-icon {
+          display: none !important
+      }
+      .notion-text-block > div > div > div.notion-callout-block > div > div > div > div.notion-collection_view-block > div > div.notion-scroller.horizontal > div.notion-gallery-view > div.notion-collection_view-block > div > div.notion-collection-item > a > div > div > div > div > div {
+          justify-content: center !important;
+      }
+
+  /*Profile Portal*/
+    [data-block-id="a83d996a-e4b0-4266-b20a-7225da1bdcc3"] {
+        text-align: center !important;
+        margin-bottom: 8px !important
+    }
+    [data-block-id="21702220-16e9-40e3-b9f8-eece1e3c10ee"] > div > div {
+        background: rgba(255, 0, 0, 0.1) !important;
+        border-radius: 1rem !important;
+        text-align: center !important;
+        border: none !important;
+    }
+    [data-block-id="21702220-16e9-40e3-b9f8-eece1e3c10ee"] > div > div > div {
+        display: none;
+        margin-top: -2rem;
+    }
+    /*Gallery view*/
+      [data-block-id="1de847f1-9071-46d8-ae49-20317d102a02"] > div > div > a > div > div > div > div > div > img {
+          display: none !important;
+      }
+      [data-block-id="1de847f1-9071-46d8-ae49-20317d102a02"] > div > a > div {
+          display: none !important
+      }
+      [data-block-id="1de847f1-9071-46d8-ae49-20317d102a02"] > div > div > div.notion-gallery-view {
+          display: grid !important;
+          margin-top: -10px !important;
+      }
+      [data-block-id="1de847f1-9071-46d8-ae49-20317d102a02"] > div > div.notion-collection_view-block > div {
+          display: none !important
+      }
+      [data-block-id="1de847f1-9071-46d8-ae49-20317d102a02"] > div {
+          min-height: 0px !important
+      }
+      [data-block-id="1de847f1-9071-46d8-ae49-20317d102a02"] > div {
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+          gap: 8px !important;
+          grid-auto-rows: auto !important;
+          border-top: none !important
+      }
+      [data-block-id="1de847f1-9071-46d8-ae49-20317d102a02"] > div > div > a > div > div {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+      }
+      [data-block-id="1de847f1-9071-46d8-ae49-20317d102a02"] > div > div > a {
+          height: fit-content !important;
+          border-radius: 1rem !important;
+      }
